@@ -28,18 +28,33 @@ section {
     border: solid 3px hsl(150, 50%, 50%);
     border-radius: 10px;
     justify-content: space-between;
-    gap: 5px;
+    gap: 8px;
     padding: 5px;
     height: 100%;
 }
 
-.row {
+#screen {
+    box-shadow: inset 3px 3px 8px hsl(200, 10%, 30%);
+}
+
+button {
     border: solid 2px hsl(350, 80%, 50%);
     border-radius: 3px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font: bold 24px Verdana, Tahoma, san-serif;
+    box-shadow: 4px 3px 8px hsl(250, 50%, 20%);
+}
+
+button:active {
+    box-shadow: 3px 2px 3px hsl(250, 50%, 20%);
+    background-color: hsl(350,20%, 90%);
+}
+
+button:hover {
+    background-color: hsl(350,20%, 90%);
 }
 
 #big {
