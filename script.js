@@ -1,19 +1,39 @@
-function add(x, y) {
+const add = (x, y) => {
     return x + y;
 }
 
-function subtract(x, y) {
+const subtract = (x, y) => {
     return x - y;
 }
 
-function multiply(x, y) {
+const multiply = (x, y) => {
     return x * y;
 }
 
-function divide(x, y) {
+const divide = (x, y) => {
+    y !== 0 ? (x / y).toPrecision(3) : false;
     if (y !==  0) {
-        return x / y;
+        return (x / y).toPrecision(3);
     }
-    else return Error;
+    // else return false;
 }
+
+function operate (x, y, sign) {
+    if (sign === '+') {
+        return add(x, y);
+    }
+    else if (sign === '-') {
+        return subtract(x, y);
+    }
+        return multiply(x, y);
+    }
+    else if (sign === '/') {
+        return divide(x, y);
+    }
+    else return false;
+}
+
+let numOne;
+let numTwo;
+let operator;
 
