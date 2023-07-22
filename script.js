@@ -1,22 +1,21 @@
 const add = (x, y) => {
     return x + y;
-}
+};
 
 const subtract = (x, y) => {
     return x - y;
-}
+};
 
 const multiply = (x, y) => {
     return x * y;
-}
+};
 
 const divide = (x, y) => {
-    y !== 0 ? (x / y).toPrecision(3) : false;
     if (y !==  0) {
         return (x / y).toPrecision(3);
     }
-    // else return false;
-}
+    else return false;
+};
 
 function operate (x, y, sign) {
     if (sign === '+') {
@@ -25,6 +24,7 @@ function operate (x, y, sign) {
     else if (sign === '-') {
         return subtract(x, y);
     }
+    else if (sign === '*') {
         return multiply(x, y);
     }
     else if (sign === '/') {
