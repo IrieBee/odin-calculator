@@ -3,3 +3,45 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font: bold 32px Verdana;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 5px hsl(250, 50%, 20%);
+    border-radius: 30px;
+    padding: 40px;
+    gap: 5px;
+    width: 500px;
+    height: 550px;
+}
+
+.column {
+    display: flex;
+    border: solid 3px hsl(150, 50%, 50%);
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 5px;
+    height: 100%;
+}
+
+.row {
+    border: solid 2px hsl(350, 80%, 50%);
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#big {
+    width: 208%;
+}
