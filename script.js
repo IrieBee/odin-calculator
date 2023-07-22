@@ -16,3 +16,4 @@ function divide(x, y) {
     }
     else return Error;
 }
+
