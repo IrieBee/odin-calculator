@@ -60,32 +60,32 @@ const numbers = document.querySelector('#numbers');
 
 // Display numbers on screen when clicked
 one.addEventListener('click', () => {
-    numbers.textContent = '1';
+    numbers.textContent += '1';
 });
 two.addEventListener('click', () => {
-    numbers.textContent = '2';
+    numbers.textContent += '2';
 });
 three.addEventListener('click', () => {
-    numbers.textContent = '3';
+    numbers.textContent += '3';
 });
 four.addEventListener('click', () => {
-    numbers.textContent = '4';
+    numbers.textContent += '4';
 });
 five.addEventListener('click', () => {
-    numbers.textContent = '5';
+    numbers.textContent += '5';
 });
 six.addEventListener('click', () => {
-    numbers.textContent = '6';
+    numbers.textContent += '6';
 });
 seven.addEventListener('click', () => {
-    numbers.textContent = '7';
+    numbers.textContent += '7';
 });
 eight.addEventListener('click', () => {
-    numbers.textContent = '8';
+    numbers.textContent += '8';
 });
 nine.addEventListener('click', () => {
-    numbers.textContent = '9';
+    numbers.textContent += '9';
 });
 zero.addEventListener('click', () => {
-    numbers.textContent = '0';
+    numbers.textContent += '0';
 });
