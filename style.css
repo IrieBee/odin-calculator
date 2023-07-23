@@ -15,8 +15,9 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: solid 5px hsl(250, 50%, 20%);
+    border: solid 7px hsl(250, 50%, 20%);
     border-radius: 30px;
+    box-shadow: 8px 8px 20px hsl(200, 10%, 30%);
     padding: 40px;
     gap: 5px;
     width: 500px;
@@ -35,6 +36,11 @@ section {
 
 #screen {
     box-shadow: inset 3px 3px 8px hsl(200, 10%, 30%);
+    display: flex;
+    justify-content: flex-end;
+    /* align-self: flex-end;
+    width: 100%; */
+    align-items: center;
 }
 
 button {
