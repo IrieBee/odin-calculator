@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    background-color: hsl(150, 90%, 95%);
 }
 
 section {
@@ -26,21 +27,21 @@ section {
 
 .column {
     display: flex;
-    border: solid 3px hsl(150, 50%, 50%);
+    border: solid 3px hsl(150, 70%, 40%);
     border-radius: 10px;
     justify-content: space-between;
     gap: 8px;
     padding: 5px;
     height: 100%;
+    
 }
 
 #screen {
     box-shadow: inset 3px 3px 8px hsl(200, 10%, 30%);
     display: flex;
     justify-content: flex-end;
-    /* align-self: flex-end;
-    width: 100%; */
     align-items: center;
+    letter-spacing: 2px;
 }
 
 button {
